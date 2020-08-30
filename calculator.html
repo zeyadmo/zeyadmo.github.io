@@ -1,0 +1,78 @@
+<html>
+    <header>
+        <script src="calculator.js"></script>
+        <link rel="stylesheet" href="calculator.css">
+    </header>
+    <body>
+<table class="cat">
+    <tr>
+        <td colspan="3">
+            <input type="text" id="maininput"class="maininput" readonly/>
+        </td>
+        <td>
+            <input type="text" id="prevresult" class="prevresult" readonly/><br>
+    <input type="text" id="operation" class="operation" readonly/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="writeNumber('1')"class="button">1</button>
+        </td>
+        <td>
+            <button onclick="writeNumber('2')"class="button">2</button>
+        </td>
+        <td>
+            <button onclick="writeNumber('3')"class="button">3</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="writeNumber('4')"class="button">4</button>
+        </td>
+        <td>
+            <button onclick="writeNumber('5')"class="button">5</button>
+        </td>
+        <td>
+            <button onclick="writeNumber('6')"class="button">6</button>
+        </td>
+    </tr>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="writeNumber('7')"class="button">7</button>
+        </td>
+        <td>
+            <button onclick="writeNumber('8')"class="button">8</button>
+        </td>
+        <td>
+            <button onclick="writeNumber('9')"class="button">9</button>
+        </td>
+    </tr>
+    <tr>
+            <td>
+                <button onclick="clearinput()"class="button">C</button>
+            </td>
+            <td>
+                <button onclick="writeNumber('0')"class="button">0</button>
+            </td>
+            <td>
+                <button onclick="equation()" class="button">=</button>
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    <button onclick="opinput('+')" class="button">+</button>
+                </td>
+                <td>
+                    <button onclick="opinput('-')"class="button">-</button>
+                </td>
+                <td>
+                    <button onclick="opinput('x')"class="button">x</button>
+                </td>
+                <td>
+                    <button onclick="opinput('÷')"class="button">÷</button>
+                </td>
+            </tr>
+</table>
+    </body>
+</html>

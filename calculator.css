@@ -1,0 +1,23 @@
+.cat{
+    color: darkgray;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+.prevresult{
+    width: 100px;
+}
+
+.operation{
+    width: 50px;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    border-radius: 20px;
+
+}
+.m{
+    width: 100px;
+}
